@@ -26,6 +26,8 @@ requirements:
     - python
 
 test:
+  source_files:
+    - '**'
   requires:
     - coverage
     - flake8
